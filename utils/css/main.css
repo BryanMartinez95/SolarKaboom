@@ -77,6 +77,12 @@ body {
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .background-image-3 {
   background-image: url("../../ABHI/images/advice-advise-advisor-7096.jpg");
   background-position: center center;
