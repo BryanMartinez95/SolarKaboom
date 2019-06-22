@@ -1,0 +1,319 @@
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: 'Roboto', sans-serif !important;
+  // line-height: 2em;
+
+}
+
+html {
+  height: 100%;
+}
+
+// body{
+
+//     min-height:100%;
+
+// }
+
+body {
+  min-height: 100%;
+  // background-color: @black;
+}
+
+.body {
+  background-color: @white;
+}
+
+.background-image {
+  //     background-image: url("../images/white-waves.png");
+  background-image: url("../image/trianglifyblue.png");
+  background-size: 100% 100%
+  // background-repeat: no-repeat;
+  
+
+  // height: 100vh;
+  // background-size: cover;
+}
+.screensize{
+  min-height: 80%;
+}
+.addMargin{
+  margin-top:100px !important;
+  margin-bottom:100px !important;
+}
+.background-image-3 {
+  //     background-image: url("../images/white-waves.png");
+  background-image: url("../../ABHI/images/advice-advise-advisor-7096.jpg");
+  // background-size:100% 100%; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  // background-repeat: repeat;
+  // height: 100vh;
+  background-size: cover;
+}
+
+
+.background-image-2 {
+  //     background-image: url("../images/white-waves.png");
+  background-image: url("../../ABHI/images/grad-cap-diploma-and-stacked-books1.jpg");
+  // background-size:100% 100%; 
+  // background-repeat: no-repeat;
+  // background-repeat: repeat;
+  // height: 100vh;
+  background-size: cover;
+}
+.main {
+  // width: 90%;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  padding-bottom:30px;
+}
+
+
+/* Code blocks */
+code {
+  font-family: monospace !important;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+//  align-items: center;
+}
+
+.page-flex-container {
+  // display:flex;'
+  padding: 50px 50px 0px 50px;
+  background-color: @grey;
+  border-radius: 5px;
+  // font-size:1.5em;
+  margin: 0 auto;
+  margin-top: 2px;
+  // border:1px solid;
+  // box-shadow: 3px 3px 3px #888888;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  // max-width: 60em;
+  width: 90%;
+  word-break: normal !important;
+  word-wrap: break-word;
+}
+
+.flex-item {
+  max-width: 50em;
+  // max-width: 45%;
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
+@media screen and (max-width:780px) {
+  .flex-container {
+    flex-grow: 1;
+  }
+}
+
+.centerContent {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.construction {
+  width: 20%;
+}
+
+.dim {
+  width: 100%;
+  min-height: 100%;
+  z-index: -6;
+  display: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.picture {
+  max-width: 200px;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+video {
+  // width: 1000px;
+  height: auto;
+  width:100%;
+  // border-radius: 10px;
+}
+
+.svg {
+  max-width: 100px;
+
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+.picture-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.picture-project {
+  max-width: 80%;
+}
+/* creates a box with shadow */
+.boxed{
+  padding: 10px;
+  margin: 20px;
+  background-color:@white;
+  
+  opacity: 0.85;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  // min-height: 350px;
+  // width: 400px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  // border: 3px solid black;
+}
+
+.flex-container-left-profile {
+  // max-width: 600px;
+  min-width:100%;
+  max-width:100%;
+  // max-height: 200px;
+  display: flex;
+  // justify-content: center;
+}
+.flex-container-column{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.flex-container-left-profile picture{
+  height: 100%;
+}
+.flex-container-left-profile text{
+  height: 100%;
+}
+
+/*video text*/
+/* Container holding the image and the text */
+.centerContain {
+  position: relative;
+  text-align: center;
+}
+
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: @white;
+}
+
+.centeredTop {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: @white;
+}
+
+
+
+.columns.is-vcentered {
+  -webkit-box-align: center;
+     -ms-flex-align: center;
+        align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  // width:100%;
+//  position: fixed;
+
+}
+
+/* Add some content at the bottom of the video/page */
+.contentTMP {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}

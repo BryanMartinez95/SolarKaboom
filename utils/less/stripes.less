@@ -1,0 +1,69 @@
+
+
+
+header .stripes {
+    z-index: -1;
+    display: grid;
+    grid: repeat(5, 200px) e("/") repeat(10, 1fr);
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+
+header .stripes :nth-child(1) {
+    grid-column: span 3;
+    background: #53f;
+}
+
+header .stripes :nth-child(2) {
+    grid-area: 3 e("/") span 3 e("/") auto e("/") -1;
+    background: #4553ff;
+}
+
+header .stripes :nth-child(3) {
+    grid-row: 4;
+    grid-column: span 5;
+    background-color: @color3;
+}
+header .stripes :nth-child(4) {
+    grid-row: 4;
+    grid-column: span 5;
+    background-color: @color3;
+}
+header .stripes :nth-child(5) {
+    grid-row: 4;
+    grid-column: span 5;
+    background-color: @color3;
+}
+
+
+.testheader{
+    position: relative;
+}
+// header .stripes :nth-child(4) {
+//     grid-row: 5;
+//     grid-area: 5 e("/") span 3 e("/") auto e("/") -1;
+// }
+
+
+
+.cube, .cube * {
+    position: absolute;
+    width: 100px;
+    height: 100px
+  }
+  
+  .sides {
+    transform-style: preserve-3d;
+    perspective: 600px
+  }
+  
+  .front  { transform: rotateY(0deg)    translateZ(50px) }
+  .back   { transform: rotateY(-180deg) translateZ(50px) }
+  .left   { transform: rotateY(-90deg)  translateZ(50px) }
+  .right  { transform: rotateY(90deg)   translateZ(50px) }
+  .top    { transform: rotateX(90deg)   translateZ(50px) }
+  .bottom { transform: rotateX(-90deg)  translateZ(50px) }
