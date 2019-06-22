@@ -125,6 +125,9 @@ code {
   margin: 0 auto;
   max-width: 50em;
 }
+.largeImage{
+  width:1000px;
+}
 .construction {
   width: 20%;
 }
