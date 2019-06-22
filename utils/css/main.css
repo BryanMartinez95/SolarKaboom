@@ -95,7 +95,10 @@ body {
 }
 .header {
   border-bottom: 1px solid black;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
+}
+.header h1{
+    font-size:3em;
 }
 /* Code blocks */
 code {
@@ -132,7 +135,7 @@ code {
   max-width: 50em;
 }
 .largeImage{
-  width:1000px;
+  width:80%;
 }
 .construction {
   width: 20%;
