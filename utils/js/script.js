@@ -24,3 +24,4 @@
     },
     delay: 250 // All properties except 'scale' inherit 250ms delay
   });
+  
